@@ -1,7 +1,7 @@
 
 # Django Starter  
 
-*A lightning-fast Django starter template 
+* A lightning-fast Django starter template 
 
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
@@ -11,7 +11,7 @@
 
 
 A modern Django starter with:
-- ⚡ **UV** (Astral) for ultra-fast package management  
+- ⚡ **UV** for fast package management  
 - 🎨 **Tailwind CSS** for styling  
 - 🔄 **HTMX** for dynamic HTML  
 - 🏔️ **Alpine.js** for reactivity  
@@ -29,7 +29,7 @@ A modern Django starter with:
 
 ### 1. Clone & Setup
 ```bash
-git clone https://github.com/yourusername/core.git
+git clone https://github.com/Ngazetungue/django-starter
 cd core
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
