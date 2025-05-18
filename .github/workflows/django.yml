@@ -1,0 +1,14 @@
+name: Basic Validation
+on: [push, pull_request]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+      - run: uv pip install -r requirements.txt
+      - run: python manage.py check
+      - run: python manage.py test
